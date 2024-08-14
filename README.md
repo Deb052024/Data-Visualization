@@ -57,10 +57,15 @@ Columns along with its Features have been renamed as per the Data Dictionary
  # Market Trend and Historical Pricing
 
  1.Histogram indicates Cinder Block Foundation followed by Poured Contrete , with highest and 2nd highest number, few Poured contrete  have price beyond 7Lakh
+ 
  2.Scatter Plot (Red one) indicates mostly above ground Living area ranges between 1000 to 2500 square feet 
+ 
  3.Second Floor Sqft has got a linear relation with the Sale Price
+ 
  4.LotFrontage is missing in most case , followed by size between 30 to 150 sqft
+ 
  5. Most of the Houses are built in the year 2000 and Beyond
+    
  6.Spike in House Price for years 2006 and 2009 
 
 
@@ -75,80 +80,81 @@ Houses with Fuse Box over 60 AMP and all Romex wiring are having the second hghe
 
 # Interpretation between Overall Quality and SalePrice
 
-Very Excellent -Overall Quality has got the highest Price, followed by excellent and very good
+1.Very Excellent -Overall Quality has got the highest Price, followed by excellent and very good
 
-Garage Attached to Home has got the highest Pric, followed by Built-In Garage and Detached From Home
-Basement Garage Price is placed in between No Garage and More than one Type of Garage 
-Car Port garage is having the least price
+2.Garage Attached to Home has got the highest Pric, followed by Built-In Garage and Detached From Home
+
+3.Basement Garage Price is placed in between No Garage and More than one Type of Garage 
+
+4.Car Port garage is having the least price
 
 # Interpretation of Box Plot with Fireplace Quality and No of FirePlaces
 
-SalePrice of Excellent condition Fireplace quality homes with 2 no of fireplaces are the costliest
-Maximum houses with Good condition Fire Quality are having 2 no of fire places and very few with 3 no of fire places
+1.SalePrice of Excellent condition Fireplace quality homes with 2 no of fireplaces are the costliest
+
+2.Maximum houses with Good condition Fire Quality are having 2 no of fire places and very few with 3 no of fire places
 
 # Univariate and Bivariate Analysis
 
 # Based on the Plots Interpretation is 
 1.Typical garage Quality with maximum Sale Price
+
 2.Slightly Irregular Shape of Property with highest Sale Price
+
 3.Houses with Air Conditioning with more price
+
 4.Customers Prefer “Good Exposure” garden level walks 
+
 5.Good Living Quarters and unfinished are the ones with highest and 2nd highest prices 
 
 # MultiVariate Analysis
+
 # Based on the Box  Plots between Garage Quality and House Price
 
 Interpretation Garage Quality VS House Price
+
 1.Excellent Heating Quality and conditions have got the highest price
+
 2."Gas Forced warm air Furnace " kind of heating with excellent Heating quality and Conditions have got the highest price
+
 3.Fair condition Heating condition and Poor conditions are the 2nd least and least Sale Price house holds
+
 
 
 # Interpreattion between Heating Quality and Condition VS House Price from Box plot
 
 1.Excellent Heating Quality and conditions have got the highest price
+
 2."Gas Forced warm air Furnace " kind of heating with excellent Heating quality and Conditions have got the highest price
+
 3.Fair condition Heating condition and Poor conditions are the 2nd least and least Sale Price house holds
 
 
+
 # Interpretation Based on Kitchen Quality and House Price
+
 1.Houses with Excellent Quality Kitchen are the ones with highest price
+
 2.Good Quality Kitchens are the ones with 2nd highest price
+
 
 
 
 # Important Finding and Conclusion For the Case Study
 
- 1. LotFrontage (Linear feet of street connected to the property), Ovear all Qual,Year Bulit, Masonry veneer area,Type2 Finished sqft,Second Floor Sqft, Above Ground Living area are having positive correlation 
-    with Sale Price
+1.LotFrontage (Linear feet of street connected to the property), Ovear all Qual,Year Bulit, Masonry veneer area,Type2 Finished sqft,Second Floor Sqft, Above Ground Living area are having positive correlation with Sale Price
 
- 2. BsmtFullBath,CentralAir,FirePlaces,FullBath,GarageCars,HalfBath,PaveDrive are few key features with high positive correlation with SalePrice
-
-
-3. Customer prefer houses with maximum 2 no of Fireplaces, air conditioning 
-
-
- 4. There exists a strong positive trend between second Floor sqft and the price , so second floor planning need to be implemented accordingly. 
-
-
- 5. Good Exposure garden area is a demand from the customers 
+2.  BsmtFullBath,CentralAir,FirePlaces,FullBath,GarageCars,HalfBath,PaveDrive are few key features with high positive correlation with SalePrice
+3.  Customer prefer houses with maximum 2 no of Fireplaces, air conditioning
+4.  There exists a strong positive trend between second Floor sqft and the price , so second floor planning need to be implemented accordingly.
+5. Good Exposure garden area is a demand from the customers
+6. Full Bath spaces are having high degree of preference by the customers and its impacting sales Price, they are preferred over Half Bath spaces
+7. PavedDrive way is the  choice that customers are looing for , it should be incorporated on the design and implementation part
+8.  2006-2007 and 2008-2009 years homes have shown an upward swing on the sale Price , mostly
+9.  Houses built on the year 1991 and 2005 have got the highest and 2nd highest overall quality feed back from the customers , the houses features, properties  can be replicated for subsequent years for construction
+10.  Fair height of basement that is (70-79) inches are the most preferred among the customers
 
 
- 6. Full Bath spaces are having high degree of preference by the customers and its impacting sales Price, they are preferred over Half Bath spaces
-
-
-  
-  7. PavedDrive way is the  choice that customers are looing for , it should be incorporated on the design and implementation part 
-
-
- 8. 2006-2007 and 2008-2009 years homes have shown an upward swing on the sale Price , mostly 
-
-
- 9. Houses built on the year 1991 and 2005 have got the highest and 2nd highest overall quality feed back from the customers , the houses features, properties  can be replicated for subsequent years for 
-   construction
-
-
-10. Fair height of basement that is (70-79) inches are the most preferred among the customers
 
 
 # THANK YOU
