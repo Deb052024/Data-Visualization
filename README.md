@@ -20,12 +20,17 @@ Unnecessary column ”Unnamed “ has been dropped
 45 Object, 35 Integer and 1 Float data Type in the data Set  
 
 # Approach To Analysis 
-1. Columns are separated between Categorical and Numerical
+1. Columns are separated between Categorical and Numerical                                                                                                                                                                          
 2.Columns with more than 5 unique value are categorized as Numerical
+
 3.Sale Price has been included in the  Numerical Column category
+
 4.Correlation was found among the numerical features with Sale Price and for the categorical Features post encoding
+
 5.High degree Positive correlation attributes were observed , feature engineering was done
-# 6. Different Plots like count plot, Bar Plot, scatter plot, Histogram, violin plot, Time Series Plot, Box Plot, Join Plots were used in analyzing the features and visualizing them 
+
+6. Different Plots like count plot, Bar Plot, scatter plot, Histogram, violin plot, Time Series Plot, Box Plot, Join Plots were used in analyzing the features and visualizing them
+   
 7.Market Trend and Customer preferences were observed and sale Price fluctuations with those features were captured for future considerations 
 
 
@@ -65,6 +70,7 @@ Columns along with its Features have been renamed as per the Data Dictionary
 # Interpretation of Electrical System and House Price
 
 Standard Circuit Breakers with Highest Price and count ,along with the spread for the Houses
+
 Houses with Fuse Box over 60 AMP and all Romex wiring are having the second hghest price
 
 # Interpretation between Overall Quality and SalePrice
