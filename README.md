@@ -22,16 +22,18 @@ Unnecessary column ”Unnamed “ has been dropped
 # Approach To Analysis 
 1. Columns are separated between Categorical and Numerical
 2.Columns with more than 5 unique value are categorized as Numerical
-3.Sale Price has been included in the  Numerical Column category 
+3.Sale Price has been included in the  Numerical Column category
 4.Correlation was found among the numerical features with Sale Price and for the categorical Features post encoding
 5.High degree Positive correlation attributes were observed , feature engineering was done
 # 6. Different Plots like count plot, Bar Plot, scatter plot, Histogram, violin plot, Time Series Plot, Box Plot, Join Plots were used in analyzing the features and visualizing them 
 7.Market Trend and Customer preferences were observed and sale Price fluctuations with those features were captured for future considerations 
 
 
- 4 columns with null values identified
+  4 columns with null values identified
+ 
  Alley feature with more than 90% null value, not healthy for analysis
-Rest null values have been replaced during analysis 
+ 
+ Rest null values have been replaced during analysis 
 
 
 # Feature Engineering Has been done on the data Set
